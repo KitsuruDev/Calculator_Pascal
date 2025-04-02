@@ -1,0 +1,23 @@
+object formRef: TformRef
+  Left = 286
+  Height = 92
+  Top = 173
+  Width = 392
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'О программе'
+  ClientHeight = 92
+  ClientWidth = 392
+  DesignTimePPI = 120
+  Position = poScreenCenter
+  LCLVersion = '3.6.0.0'
+  object Label1: TLabel
+    Left = 16
+    Height = 60
+    Top = 16
+    Width = 359
+    Caption = 'Калькулятор - версия 1.0, 2024'#13#10'© KitsuruDev. Все права защищены'
+    Font.Height = -22
+    ParentFont = False
+  end
+end
